@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SS TECHWORKS | Ideas to Digital Solutions</title>
+    <meta name="description" content="SS TECHWORKS — Ideas to Digital Solutions. Professional software agency specializing in modern web platforms, Android apps, custom software, and AI solutions." />
+    <meta property="og:title" content="SS TECHWORKS | Ideas to Digital Solutions" />
+    <meta property="og:description" content="SS TECHWORKS — Ideas to Digital Solutions. Professional software development, web, mobile, and AI solutions." />
+    <meta property="og:image" content="/assets/aistudio/a_clean_high_resolution_futuristic_tech_logo_bra_0b441d93.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/assets/aistudio/a_clean_high_resolution_futuristic_tech_logo_bra_0b441d93.png" />
+    <link rel="apple-touch-icon" href="/assets/aistudio/a_clean_high_resolution_futuristic_tech_logo_bra_0b441d93.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('theme');
+          var isDark = saved === 'dark' || (!saved && (!window.matchMedia || window.matchMedia('(prefers-color-scheme: dark)').matches));
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-[#07090e] dark:text-slate-100 font-sans antialiased selection:bg-blue-600/30 selection:text-white min-h-screen transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

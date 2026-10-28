@@ -1,0 +1,8 @@
+{
+  "name": "SS TECHWORKS",
+  "description": "Professional software development agency specializing in modern web, mobile apps, custom software, and AI solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
